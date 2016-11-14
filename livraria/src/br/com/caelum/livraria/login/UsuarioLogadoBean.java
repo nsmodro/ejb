@@ -1,11 +1,11 @@
-package br.com.livraria.login;
+package br.com.caelum.livraria.login;
 
 import java.io.Serializable;
 
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
-import br.com.livraria.modelo.Usuario;
+import br.com.caelum.livraria.modelo.Usuario;
 
 @Named 
 @SessionScoped

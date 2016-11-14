@@ -1,4 +1,4 @@
-package br.com.livraria.login;
+package br.com.caelum.livraria.login;
 
 import javax.el.ELContext;
 import javax.el.ELResolver;

@@ -1,12 +1,17 @@
-package br.com.livraria.dao;
+package br.com.caelum.livraria.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.livraria.modelo.Autor;
-import br.com.livraria.modelo.Livro;
-import br.com.livraria.modelo.Usuario;
+import javax.ejb.Singleton;
+import javax.ejb.Startup;
 
+import br.com.caelum.livraria.modelo.Autor;
+import br.com.caelum.livraria.modelo.Livro;
+import br.com.caelum.livraria.modelo.Usuario;
+
+@Singleton //FAZ TER APENAS UMA INSTANCIA DESSA CLASSE, independete do que está configurado no arquivo standalone
+@Startup //é instaciada quando a aplicação é inicializada
 public class Banco {
 	
 	public static List<Livro> livros = new ArrayList<Livro>();

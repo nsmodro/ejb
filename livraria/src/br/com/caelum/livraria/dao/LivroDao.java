@@ -1,10 +1,10 @@
-package br.com.livraria.dao;
+package br.com.caelum.livraria.dao;
 
 import java.util.List;
 
 import javax.ejb.Stateless;
 
-import br.com.livraria.modelo.Livro;
+import br.com.caelum.livraria.modelo.Livro;
 
 @Stateless
 public class LivroDao {
